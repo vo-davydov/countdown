@@ -32,9 +32,9 @@ function setClock(id, endtime) {
         }
 
         if (timeRamainig.minutes >= 10) {
-            minutes.textContent = timeRamainig.minuts;
+            minutes.textContent = timeRamainig.minutes;
         } else {
-            minutes.textContent = '0' + timeRamainig.minuts;
+            minutes.textContent = '0' + timeRamainig.minutes;
         }
 
         if (timeRamainig.seconds >= 10) {
